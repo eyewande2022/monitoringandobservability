@@ -1,4 +1,4 @@
-# Installation of Elastic Search 
+# Elastic Search 
 
 ### Update 
 
