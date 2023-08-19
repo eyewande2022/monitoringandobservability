@@ -1,7 +1,7 @@
 # Kibana- (Using NGINX as a reverse proxy)
 
 
-We should knoe that Kibana is configured in such a way to listen on localhost only  and because of this ,we  would have a need to create a REVERSE PROXY to allow external accesss to it and NGINX fits the purpose.Here we would be  installing NGINX and ensure its running and then  create NGINX server block on sites available thereby including your server name  .
+We should know that Kibana is configured in such a way to listen on localhost only  and because of this ,we  would have a need to create a REVERSE PROXY to allow external accesss to it and NGINX fits the purpose.Here we would be  installing NGINX and ensure its running and then  create NGINX server block on sites available thereby including your server name  .
 
 Because Kibana is configured to only listen on localhost, we must set up a reverse proxy to allow external access to it. We will use Nginx for this purpose, which should already be installed on your server.
 
